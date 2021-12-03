@@ -35,10 +35,10 @@ $ bash compile.sh
 
 ```json
 {
-    "model": {…},
-    "learning_rate": {…},
-    "loss": {…},
-    "training": {…}
+    "model": { … },
+    "learning_rate": { … },
+    "loss": { … },
+    "training": { … }
 }
 ```
 An example of `model` section is provided as follows
