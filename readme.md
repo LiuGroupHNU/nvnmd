@@ -7,10 +7,10 @@
 
 # File structure
 
-* `bin`: source code of training a machine learning (ML) model  and test.
-* `dataset`: data sets including training data set and test data set. See the [paper][1] for more details of the data set in this example.
-* `train.json`: input script of  the continuous neural network (CNN) training.
-* `train2.json`: input script of  the quantized neural network (QNN) training.
+* `bin`: source code of training and testing.
+* `dataset`: training and testing data set. See the [paper][1] for more details of the data set in this example.
+* `train.json`: input script of the continuous neural network (CNN) training.
+* `train2.json`: input script of the quantized neural network (QNN) training.
 
 # Preparation
 
@@ -114,7 +114,7 @@ $ python $nvnmd_source_dir/bin/train/main.py train train.json
 $ python $nvnmd_source_dir/bin/train/main.py freeze -o graph.pb
 ```
 
-## Test
+## Testing
 
 ```bash
 $ mkdir test-test
@@ -196,7 +196,7 @@ $ python $nvnmd_source_dir/bin/train/main.py train train.json
 $ python $nvnmd_source_dir/bin/train/main.py freeze -o graph.pb
 ```
 
-## Test
+## Testing
 
 ```bash
 $ mkdir test-test
