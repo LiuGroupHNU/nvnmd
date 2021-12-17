@@ -426,7 +426,7 @@ def parse_args(args: Optional[List[str]] = None):
         "-c",
         "--nvnmd-config",
         type=str,
-        default="nvnmd/config.json",
+        default="nvnmd/config.npy",
         help="the configuration file",
     )
     parser_map.add_argument(
@@ -454,7 +454,7 @@ def parse_args(args: Optional[List[str]] = None):
         "-c",
         "--nvnmd-config",
         type=str,
-        default="nvnmd/config.json",
+        default="nvnmd/config.npy",
         help="the configuration file",
     )
     parser_wrap.add_argument(
