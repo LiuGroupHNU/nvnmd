@@ -175,7 +175,6 @@ Compared with the input script for CNN training, some parameters for QNN trainin
 
 Typically, CNN training uses a large number of training steps with a high learning rate; and the subsequent QNN training uses a small number of training steps (e.g., 1×10<sup>4</sup>) and a low learning rate (e.g., 5×10<sup>-7</sup>), as it only needs to minimize the small error induced by quantization from CNN to QNN.
 
-
 Create a directory for QNN training and copy the input script to new directory
 
 ```bash
