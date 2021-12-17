@@ -37,11 +37,11 @@ Then, copy the data set to working directory. `$nvnmd_source_dir/examples/nvnmd/
 
 ```json
 {
-    "model": {…},
-    "nvnmd": {…},
-    "learning_rate": {…},
-    "loss": {…},
-    "training": {…}
+    "model": {...},
+    "nvnmd": {...},
+    "learning_rate": {...},
+    "loss": {...},
+    "training": {...}
 }
 ```
 
@@ -158,12 +158,12 @@ Compared with the input script for CNN training, some parameters for QNN trainin
 
     "learning_rate": {
         "start_lr": 0.0000005,
-        …
+        ...
     },
 
     "training": {
         "stop_batch": 10000,
-        …
+        ...
     }
 ```
 
