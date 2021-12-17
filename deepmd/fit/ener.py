@@ -285,7 +285,7 @@ class EnerFitting ():
 
         if nvnmd_cfg.enable: one_layer = one_layer_nvnmd
         for ii in range(0,len(self.n_neuron)) :
-            if ii >= 1 and self.n_neuron[ii] == self.n_neuron[ii-1] :
+            if ii >= 1 and self.n_neuron[ii] == self.n_neuron[ii-1] and (not nvnmd_cfg.enable):
                 layer+= one_layer(
                     layer,
                     self.n_neuron[ii],
